@@ -1,0 +1,31 @@
+@media all and (max-width: 500px) {
+    article {
+        left: 0;
+        top: 0;
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .main {
+        padding: 0 5%;
+    }
+}
+
+@media all and (max-width: 375px) {
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    h {
+        font-size: 50px;
+    }
+
+    .body {
+        font-size: 18px;
+    }
+}
